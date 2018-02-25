@@ -1,7 +1,4 @@
-!important body {
-	background-color: #F3F6FB;
-}
-
+/*CSS for tags*/
 nav {
 	height: 75px;
 	background-color: #2B2A3B;
@@ -14,22 +11,62 @@ main {
 	text-align: center;
 }
 
+footer {
+	height: 75px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 40%;*/
+}
+
+names {
+	text-align: center;
+	font-family: 'bodoni 72 smallcaps';
+	font-size: 26px;
+	margin-top: 15px;
+}
+
+/*CSS classes*/
 .square {
   width: 275px;
   height: 275px;
   margin-left: 25px;
   margin-bottom: 25px;
   margin-right: 25px;
-  margin-top: 50px;
+  margin-top: 65px;
   border-radius: 15px;
   background-color: #C33939;
   opacity: 0.55;
 }
 
 .mainscreen {
-	height: 730px;
+	height: 710px;
+	width: 100%;
+	margin-top: 53px;
+	background-color: #F3F6FB;
+	/*border: 2px solid black;*/
 }
 
-!important .row {
-	height: 157px;
+.container button{
+	margin-top: 50px;
+}
+
+.squares {
+	height: 800px;
+	background-color: #F3F6FB;
+}
+
+.center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.muselogo {
+	margin-top: 15px;
 }
