@@ -1,4 +1,4 @@
-/*CSS for tags*/
+/*CSS tag styling*/
 nav {
 	height: 75px;
 	background-color: #2B2A3B;
@@ -15,6 +15,7 @@ footer {
 	height: 75px;
 	width: 100%;
 	background-color: #FFFFFF;
+	border-top: 2px solid black;
 }
 
 img {
@@ -24,11 +25,32 @@ img {
     /*width: 40%;*/
 }
 
+li {
+	color: #FFFFFF;
+	letter-spacing: 1px;
+}
+
 names {
 	text-align: center;
 	font-family: 'bodoni 72 smallcaps';
 	font-size: 26px;
 	margin-top: 15px;
+}
+
+slogan1, slogan2 {
+	text-align: center;
+	font-family: 'copperplate';
+	vertical-align: middle;
+	letter-spacing: 20;
+}
+
+slogan1 {
+	font-size: 48px;
+}
+
+slogan2 {
+	font-size: 100px;
+	text-decoration: underline;
 }
 
 /*CSS classes*/
